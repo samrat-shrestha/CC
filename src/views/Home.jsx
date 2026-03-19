@@ -23,6 +23,10 @@ import {
     PiGraduationCapDuotone,
     PiUserFocusDuotone,
     PiSparkle,
+    PiMegaphoneDuotone,
+    PiChartPieSliceDuotone,
+    PiChatTeardropTextDuotone,
+    PiTrendUpDuotone,
 } from 'react-icons/pi'
 
 // ─── Animations ───────────────────────────────────────────────────────
@@ -342,6 +346,39 @@ const Home = () => {
                     description: 'Blind demographic data during initial screening to ensure merit and publication quality drive decisions.',
                     path: '/bias-mitigation',
                     capabilities: ['Blinded Review', 'Merit-Based', 'Configurable Filters', 'Compliance Tracking'],
+                },
+            ],
+        },
+        {
+            icon: PiMegaphoneDuotone,
+            title: 'Campus Reputation Intelligence',
+            subtitle: 'Social discourse & public sentiment monitoring',
+            gradientFrom: '#ec4899',
+            gradientTo: '#f43f5e',
+            features: [
+                {
+                    icon: PiChartPieSliceDuotone,
+                    iconColor: '#ec4899',
+                    title: 'Campus Social Analytics',
+                    description: 'Aggregate campus sentiment overview with trend analysis, platform breakdown, and highlighted positive and negative mentions.',
+                    path: '/discourse-dashboard',
+                    capabilities: ['Sentiment Trends', 'Platform Metrics', 'Highlight Posts', 'Weekly Reports'],
+                },
+                {
+                    icon: PiChatTeardropTextDuotone,
+                    iconColor: '#8b5cf6',
+                    title: 'Public Sentiment Feed',
+                    description: 'Real-time filterable stream of social media posts about campus with sentiment classification and engagement metrics.',
+                    path: '/public-sentiment-feed',
+                    capabilities: ['Live Feed', 'Sentiment Tags', 'Platform Filters', 'Engagement Stats'],
+                },
+                {
+                    icon: PiTrendUpDuotone,
+                    iconColor: '#f59e0b',
+                    title: 'Campus Buzz Analytics',
+                    description: 'Trending topic analysis, engagement heatmaps, and identification of key opinion leaders across campus social channels.',
+                    path: '/campus-buzz-analytics',
+                    capabilities: ['Trending Topics', 'Engagement Heatmap', 'Top Voices', 'Sentiment Ratios'],
                 },
             ],
         },

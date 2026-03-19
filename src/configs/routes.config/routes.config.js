@@ -131,5 +131,29 @@ export const protectedRoutes = [
         ),
         authority: [],
     },
+    {
+        key: 'campusReputation.discourseDashboard',
+        path: '/discourse-dashboard',
+        component: lazy(
+            () => import('@/views/social/DiscourseDashboard'),
+        ),
+        authority: [],
+    },
+    {
+        key: 'campusReputation.sentimentFeed',
+        path: '/public-sentiment-feed',
+        component: lazy(
+            () => import('@/views/social/PublicSentimentFeed'),
+        ),
+        authority: [],
+    },
+    {
+        key: 'campusReputation.buzzAnalytics',
+        path: '/campus-buzz-analytics',
+        component: lazy(
+            () => import('@/views/social/CampusBuzzAnalytics'),
+        ),
+        authority: [],
+    },
     ...othersRoute,
 ]

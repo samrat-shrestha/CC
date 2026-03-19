@@ -20,6 +20,10 @@ import {
     PiArticleDuotone,
     PiTargetDuotone,
     PiEyeSlashDuotone,
+    PiMegaphoneDuotone,
+    PiChartPieSliceDuotone,
+    PiChatTeardropTextDuotone,
+    PiTrendUpDuotone,
 } from 'react-icons/pi'
 
 const navigationIcon = {
@@ -44,6 +48,11 @@ const navigationIcon = {
     bibliometric: <PiArticleDuotone />,
     alignmentScoring: <PiTargetDuotone />,
     biasMitigation: <PiEyeSlashDuotone />,
+    campusReputation: <PiMegaphoneDuotone />,
+    discourseDashboard: <PiChartPieSliceDuotone />,
+    sentimentFeed: <PiChatTeardropTextDuotone />,
+    buzzAnalytics: <PiTrendUpDuotone />,
 }
 
 export default navigationIcon
+

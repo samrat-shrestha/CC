@@ -219,6 +219,47 @@ const navigationConfig = [
             },
         ],
     },
+    {
+        key: 'campusReputation',
+        path: '',
+        title: 'Campus Reputation Intelligence',
+        translateKey: 'nav.campusReputation',
+        icon: 'campusReputation',
+        type: NAV_ITEM_TYPE_TITLE,
+        authority: [],
+        subMenu: [
+            {
+                key: 'campusReputation.discourseDashboard',
+                path: '/discourse-dashboard',
+                title: 'Campus Social Analytics',
+                translateKey: 'nav.campusReputation.discourseDashboard',
+                icon: 'discourseDashboard',
+                type: NAV_ITEM_TYPE_ITEM,
+                authority: [],
+                subMenu: [],
+            },
+            {
+                key: 'campusReputation.sentimentFeed',
+                path: '/public-sentiment-feed',
+                title: 'Public Sentiment Feed',
+                translateKey: 'nav.campusReputation.sentimentFeed',
+                icon: 'sentimentFeed',
+                type: NAV_ITEM_TYPE_ITEM,
+                authority: [],
+                subMenu: [],
+            },
+            {
+                key: 'campusReputation.buzzAnalytics',
+                path: '/campus-buzz-analytics',
+                title: 'Campus Buzz Analytics',
+                translateKey: 'nav.campusReputation.buzzAnalytics',
+                icon: 'buzzAnalytics',
+                type: NAV_ITEM_TYPE_ITEM,
+                authority: [],
+                subMenu: [],
+            },
+        ],
+    },
 ]
 
 export default navigationConfig
